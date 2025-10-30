@@ -1,0 +1,17 @@
+rsvp-app/
+├── server/
+│   └── index.js
+├── client/
+│   └── vite-project/
+│       ├── public/
+│       │   └── ultrasound.jpg          ← **YOUR IMAGE HERE**
+│       ├── src/
+│       │   ├── components/
+│       │   │   ├── AdminLogin.jsx
+│       │   │   └── AdminDashboard.jsx
+│       │   ├── App.jsx
+│       │   ├── main.jsx
+│       │   └── App.css
+│       ├── index.html
+│       └── package.json
+└── README.md
