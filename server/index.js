@@ -10,10 +10,6 @@ const path = require('path');
 
 const app = express();
 app.use(cors());
-// === TEST ROUTE (for debugging) ===
-app.get('/api/test', (req, res) => {
-  res.json({ message: 'Backend is LIVE!', time: new Date().toISOString() });
-});
 app.use(express.json());
 
 const SECRET = process.env.JWT_SECRET || 'your_random_secret_here'; // From .env
