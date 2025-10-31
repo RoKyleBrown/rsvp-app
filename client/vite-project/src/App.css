@@ -546,9 +546,10 @@ body{
   -webkit-backdrop-filter: blur(8px);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   z-index: 1000;
   animation: fadeIn 0.3s ease-out;
+  overflow-y: scroll;
 }
 
 @keyframes fadeIn {
