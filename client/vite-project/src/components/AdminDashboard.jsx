@@ -1,8 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-
-const API = 'http://localhost:5000/api';
+const API = '/api';
 
 export default function AdminDashboard({ onLogout }) {
   const [stats, setStats] = useState(null);

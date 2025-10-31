@@ -9,7 +9,7 @@ export default function AdminLogin({ onLogin }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/admin/login', creds);
+      const res = await axios.post('/api/admin/login', creds);
       localStorage.setItem('adminToken', res.data.token);
       onLogin();
     } catch (err) {
