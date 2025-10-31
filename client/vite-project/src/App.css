@@ -547,6 +547,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  padding-top: 8vh;
   z-index: 1000;
   animation: fadeIn 0.3s ease-out;
   overflow-y: scroll;
