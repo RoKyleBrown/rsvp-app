@@ -111,7 +111,7 @@ function App() {
           {stage === 'no' && "We're sorry you can't make it"}
           {stage === 'maybe' && "That's okay! Let us know if plans change"}
         </h3>
-
+         <p>Enter your name</p>
         <div className="input-group">
           <input name="first_name" placeholder="First Name" value={formData.first_name} onChange={handleInput} required />
           <input name="last_name" placeholder="Last Name" value={formData.last_name} onChange={handleInput} required />
@@ -121,7 +121,7 @@ function App() {
   <>
     <div className="guests-section">
       <p className="guest-instructions">
-        Please provide <strong>first and last name</strong> for each guest:
+        Please provide <strong>first and last name</strong> for each additional person in your party. Don't include yourself:
       </p>
       {[1,2,3,4].map(i => (
         <div key={i} className="guest-pair">
